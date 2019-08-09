@@ -1,10 +1,10 @@
 package vocabulary.enhancer.frontend;
 
-import javax.swing.*;   //TODO:fix
+import javax.swing.JLabel;
+import javax.swing.JButton;
+import javax.swing.JPanel;
 import vocabulary.enhancer.csv.CSVReaderUtil;
 import vocabulary.enhancer.data.WordDefinitionPair;
-
-import java.util.ArrayList;
 import java.util.List;
 
 public class VocabularyEnhancer {

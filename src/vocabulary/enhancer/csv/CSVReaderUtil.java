@@ -7,7 +7,7 @@ import java.util.Scanner;
 
 public class CSVReaderUtil {
 
-    public static WordDefinitionPair getRandomWordAndDefintion() {
+    public static WordDefinitionPair getRandomWordAndDefinition() {
         int randomRow = (int)(Math.random()*CSVConstants.NUMBER_OF_ROWS) + 1;
 
         String line = getLine(randomRow);

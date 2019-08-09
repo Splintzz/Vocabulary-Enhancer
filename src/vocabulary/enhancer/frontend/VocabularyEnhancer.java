@@ -1,14 +1,14 @@
 package vocabulary.enhancer.frontend;
 
-import vocabulary.enhancer.database.DatabaseFetcher;
 import javax.swing.*;   //TODO:fix
+import vocabulary.enhancer.csv.CSVReaderUtil;
+import vocabulary.enhancer.data.WordDefinitionPair;
 
 public class VocabularyEnhancer {
     private JLabel defintionDisplay;
     private JButton[] answerChoices;
     private JPanel answersDisplay;
     private String currentCorrectAnswer;
-    private DatabaseFetcher databaseFetcher;
 
     public VocabularyEnhancer() {
         defintionDisplay = new JLabel();
@@ -19,24 +19,23 @@ public class VocabularyEnhancer {
     }
 
     private void setUpDisplayComponents() {
-        setCurrentCorrectAnswer();
-        setUpDefinitionDisplay();
+        setUpNextRound();
         setUpAnswerChoices();
     }
 
-    private void setCurrentCorrectAnswer() {
-        //currentCorrectAnswer = databaseFetcher.fetchRandomWord();
-    }
 
-    private void setUpDefinitionDisplay() {
-        //String definition = databaseFetcher.getDefinitionForWord(currentCorrectAnswer);
+    private void setUpNextRound() {
+        WordDefinitionPair nextWordAndDefinition = CSVReaderUtil.getRandomWordAndDefinition();
 
-        //defintionDisplay.setText(definition);
+        String word = nextWordAndDefinition.getWord();
+        String definition = nextWordAndDefinition.getDefinition();
+
+        currentCorrectAnswer = word;
+        defintionDisplay.setText(definition);
     }
 
     private void setUpAnswerChoices() {
-        //String[] answers = databaseFetcher.getAnswerChoices(
-           //currentCorrectAnswer, VocabularyEnhancerConstants.NUMBER_OF_ANSWER_CHOICES);
+
     }
 
 

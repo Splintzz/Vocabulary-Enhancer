@@ -15,13 +15,13 @@ public class CSVReaderUtil {
 
         List<String> answerChoices = new ArrayList<>(NUMBER_OF_ANSWER_CHOICES);
 
-        answerChoices.add(answer.getDefinition());
+        answerChoices.add(answer.getWord());
 
         int choicesAdded = 1;
 
         while(choicesAdded != NUMBER_OF_ANSWER_CHOICES) {
 
-            String answerChoice = getRandomWordAndDefinition().getDefinition();
+            String answerChoice = getRandomWordAndDefinition().getWord();
 
             if(!answerChoices.contains(answerChoice)) {
                 answerChoices.add(answerChoice);
@@ -40,7 +40,7 @@ public class CSVReaderUtil {
         String line = getLine(randomRow);
 
         String word = parseCSVForWord(line);
-        String definition = parseCSVForDefintion(line);
+        String definition = parseCSVForDefinition(line);
 
 
         return new WordDefinitionPair(word, definition);
@@ -55,11 +55,11 @@ public class CSVReaderUtil {
         return word;
     }
 
-    private static String parseCSVForDefintion(String line) {
-        final int START_OF_DEFINTION_INDEX = line.indexOf(CSVConstants.END_OF_WORD) + 1;
-        final int END_OF_DEFINTION_INDEX = line.indexOf(CSVConstants.END_OF_DEFINITION) + 1;
+    private static String parseCSVForDefinition(String line) {
+        final int START_OF_DEFINITION_INDEX = line.indexOf(CSVConstants.END_OF_WORD) + 1;
+        final int END_OF_DEFINITION_INDEX = line.indexOf(CSVConstants.END_OF_DEFINITION) + 1;
 
-        String definition = line.substring(START_OF_DEFINTION_INDEX, END_OF_DEFINTION_INDEX);
+        String definition = line.substring(START_OF_DEFINITION_INDEX, END_OF_DEFINITION_INDEX);
 
         return definition;
     }

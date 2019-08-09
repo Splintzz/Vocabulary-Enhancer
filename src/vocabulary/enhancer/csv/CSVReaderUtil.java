@@ -3,9 +3,36 @@ package vocabulary.enhancer.csv;
 import vocabulary.enhancer.data.WordDefinitionPair;
 
 import java.io.FileNotFoundException;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
 import java.util.Scanner;
 
 public class CSVReaderUtil {
+
+    public static List<String> getAnswerChoices(WordDefinitionPair answer) {
+        final int NUMBER_OF_ANSWER_CHOICES = 8;
+
+        List<String> answerChoices = new ArrayList<>(NUMBER_OF_ANSWER_CHOICES);
+
+        answerChoices.add(answer.getDefinition());
+
+        int choicesAdded = 1;
+
+        while(choicesAdded != NUMBER_OF_ANSWER_CHOICES) {
+
+            String answerChoice = getRandomWordAndDefinition().getDefinition();
+
+            if(!answerChoices.contains(answerChoice)) {
+                answerChoices.add(answerChoice);
+                ++choicesAdded;
+            }
+        }
+
+        Collections.shuffle(answerChoices);
+
+        return answerChoices;
+    }
 
     public static WordDefinitionPair getRandomWordAndDefinition() {
         int randomRow = (int)(Math.random()*CSVConstants.NUMBER_OF_ROWS) + 1;
@@ -38,7 +65,6 @@ public class CSVReaderUtil {
     }
 
     private static String getLine(int desiredRow) {
-        System.out.println(desiredRow);
         String line = null;
         Scanner vocabTableScanner = getVocabTableScanner();
 

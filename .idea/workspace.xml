@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="12c7c095-0ef7-46d3-872e-18ca8b79ec1d" name="Default Changelist" comment="" />
+    <list default="true" id="12c7c095-0ef7-46d3-872e-18ca8b79ec1d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/vocabulary/enhancer/csv/CSVReaderUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vocabulary/enhancer/csv/CSVReaderUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/vocabulary/enhancer/csv/VocabTable.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/vocabulary/enhancer/csv/VocabTable.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/vocabulary/enhancer/frontend/VocabularyEnhancer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vocabulary/enhancer/frontend/VocabularyEnhancer.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -11,13 +15,15 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/vocabulary/enhancer/frontend/VocabularyEnhancer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="42" selection-start-line="42" selection-end-line="42" />
+            <state relative-caret-position="219">
+              <caret line="35" column="37" selection-start-line="35" selection-start-column="37" selection-end-line="35" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#699#700#0" expanded="true" />
+                <element signature="e#731#732#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -26,8 +32,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/vocabulary/enhancer/csv/CSVReaderUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="16" selection-start-line="16" selection-end-line="16" />
+            <state relative-caret-position="312">
+              <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -47,8 +53,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/vocabulary/enhancer/csv/VocabTable.txt">
           <provider selected="true" editor-type-id="csv-text-editor">
-            <state>
-              <caret column="15" selection-start-column="15" selection-end-column="15" />
+            <state relative-caret-position="117">
+              <caret line="9" column="58" selection-start-line="9" selection-start-column="58" selection-end-line="9" selection-end-column="58" />
             </state>
           </provider>
           <provider editor-type-id="csv-table-editor">
@@ -56,7 +62,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/vocabulary/enhancer/data/WordDefinitionPair.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="78">
@@ -84,12 +90,12 @@
         <option value="$PROJECT_DIR$/src/vocabulary/enhancer/frontend/VocabularyEnhancerConstants.java" />
         <option value="$PROJECT_DIR$/src/vocabulary/enhancer/csv/CSVReader.java" />
         <option value="$PROJECT_DIR$/src/vocabulary/enhancer/data/WordDefinitionPair.java" />
-        <option value="$PROJECT_DIR$/src/vocabulary/enhancer/frontend/VocabularyEnhancer.java" />
         <option value="$PROJECT_DIR$/src/vocabulary/enhancer/database/DatabaseFetcher.java" />
         <option value="$PROJECT_DIR$/src/vocabulary/enhancer/csv/VocabTable.csv" />
-        <option value="$PROJECT_DIR$/src/vocabulary/enhancer/csv/VocabTable.txt" />
         <option value="$PROJECT_DIR$/src/vocabulary/enhancer/csv/CSVConstants.java" />
         <option value="$PROJECT_DIR$/src/vocabulary/enhancer/csv/CSVReaderUtil.java" />
+        <option value="$PROJECT_DIR$/src/vocabulary/enhancer/csv/VocabTable.txt" />
+        <option value="$PROJECT_DIR$/src/vocabulary/enhancer/frontend/VocabularyEnhancer.java" />
       </list>
     </option>
   </component>
@@ -131,20 +137,6 @@
               <item name="Vocabulary Enhancer" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="enhancer" type="462c0819:PsiDirectoryNode" />
-              <item name="csv" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Vocabulary Enhancer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Vocabulary Enhancer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="enhancer" type="462c0819:PsiDirectoryNode" />
-              <item name="database" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Vocabulary Enhancer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Vocabulary Enhancer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="enhancer" type="462c0819:PsiDirectoryNode" />
               <item name="frontend" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -156,7 +148,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="UI_DESIGNER_EDITOR_MODE.PaletteManager.WIDTH" value="125" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1565313982687" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1565316175019" />
     <property name="project.structure.last.edited" value="Global Libraries" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -178,7 +170,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Tester">
     <configuration name="DatabaseFetcher" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="vocabulary.enhancer.database.DatabaseFetcher" />
       <module name="Vocabulary Enhancer" />
@@ -192,8 +184,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Tester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Tester" />
+      <module name="Vocabulary Enhancer" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Tester" />
         <item itemvalue="Application.DatabaseFetcher" />
       </list>
     </recent_temporary>
@@ -213,8 +213,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="752" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23828755" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23828755" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -228,7 +229,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.25454545" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.31060606" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.3287879" />
@@ -285,16 +286,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/vocabulary/enhancer/csv/CSVReaderUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/vocabulary/enhancer/database/DatabaseFetcher.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="143">
@@ -302,16 +293,6 @@
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#331#332#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/vocabulary/enhancer/frontend/VocabularyEnhancer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="42" selection-start-line="42" selection-end-line="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -325,8 +306,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/vocabulary/enhancer/csv/VocabTable.txt">
       <provider selected="true" editor-type-id="csv-text-editor">
-        <state>
-          <caret column="15" selection-start-column="15" selection-end-column="15" />
+        <state relative-caret-position="117">
+          <caret line="9" column="58" selection-start-line="9" selection-start-column="58" selection-end-line="9" selection-end-column="58" />
         </state>
       </provider>
       <provider editor-type-id="csv-table-editor">
@@ -338,6 +319,28 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="78">
           <caret line="6" column="63" selection-start-line="6" selection-start-column="63" selection-end-line="6" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/vocabulary/enhancer/csv/CSVReaderUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/vocabulary/enhancer/frontend/VocabularyEnhancer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="35" column="37" selection-start-line="35" selection-start-column="37" selection-end-line="35" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#699#700#0" expanded="true" />
+            <element signature="e#731#732#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

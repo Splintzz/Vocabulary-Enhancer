@@ -4,6 +4,9 @@ import javax.swing.*;   //TODO:fix
 import vocabulary.enhancer.csv.CSVReaderUtil;
 import vocabulary.enhancer.data.WordDefinitionPair;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class VocabularyEnhancer {
     private JLabel defintionDisplay;
     private JButton[] answerChoices;
@@ -20,7 +23,6 @@ public class VocabularyEnhancer {
 
     private void setUpDisplayComponents() {
         setUpNextRound();
-        setUpAnswerChoices();
     }
 
 
@@ -30,14 +32,21 @@ public class VocabularyEnhancer {
         String word = nextWordAndDefinition.getWord();
         String definition = nextWordAndDefinition.getDefinition();
 
+        System.out.println(word);
+        System.out.println(definition);
+        System.out.println();
+
+        setUpAnswerChoices(nextWordAndDefinition);
+
         currentCorrectAnswer = word;
         defintionDisplay.setText(definition);
     }
 
-    private void setUpAnswerChoices() {
+    private void setUpAnswerChoices(WordDefinitionPair nextWordAndDefinition) {
+        List<String> answerChoice = CSVReaderUtil.getAnswerChoices(nextWordAndDefinition);
 
+        for(String e : answerChoice) {
+            System.out.println(e);
+        }
     }
-
-
-
 }

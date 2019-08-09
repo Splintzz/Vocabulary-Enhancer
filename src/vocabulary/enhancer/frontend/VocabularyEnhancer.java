@@ -25,18 +25,18 @@ public class VocabularyEnhancer {
     }
 
     private void setCurrentCorrectAnswer() {
-        currentCorrectAnswer = databaseFetcher.fetchRandomWord();
+        //currentCorrectAnswer = databaseFetcher.fetchRandomWord();
     }
 
     private void setUpDefinitionDisplay() {
-        String definition = databaseFetcher.getDefinitionForWord(currentCorrectAnswer);
+        //String definition = databaseFetcher.getDefinitionForWord(currentCorrectAnswer);
 
-        defintionDisplay.setText(definition);
+        //defintionDisplay.setText(definition);
     }
 
     private void setUpAnswerChoices() {
-        String[] answers = databaseFetcher.getAnswerChoices(
-            currentCorrectAnswer, VocabularyEnhancerConstants.NUMBER_OF_ANSWER_CHOICES);
+        //String[] answers = databaseFetcher.getAnswerChoices(
+           //currentCorrectAnswer, VocabularyEnhancerConstants.NUMBER_OF_ANSWER_CHOICES);
     }
 
 

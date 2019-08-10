@@ -11,19 +11,20 @@ import java.util.Scanner;
 public class CSVReaderUtil {
 
     public static List<String> getAnswerChoices(WordDefinitionPair answer) {
-        final int NUMBER_OF_ANSWER_CHOICES = 8;
 
-        List<String> answerChoices = new ArrayList<>(NUMBER_OF_ANSWER_CHOICES);
+        List<String> answerChoices = new ArrayList<>(CSVConstants.NUMBER_OF_ANSWER_CHOICES);
 
         answerChoices.add(answer.getWord());
 
         int choicesAdded = 1;
 
-        while(choicesAdded != NUMBER_OF_ANSWER_CHOICES) {
+        while(choicesAdded != CSVConstants.NUMBER_OF_ANSWER_CHOICES) {
 
             String answerChoice = getRandomWordAndDefinition().getWord();
 
-            if(!answerChoices.contains(answerChoice)) {
+            boolean theAnswerChoiceDoesNotExistAlready = !answerChoices.contains(answerChoice);
+
+            if(theAnswerChoiceDoesNotExistAlready) {
                 answerChoices.add(answerChoice);
                 ++choicesAdded;
             }

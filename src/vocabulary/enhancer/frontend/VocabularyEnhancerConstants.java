@@ -1,6 +1,6 @@
 package vocabulary.enhancer.frontend;
 
-import java.awt.*;
+import java.awt.Dimension;
 
 public class VocabularyEnhancerConstants {
     public final static int NUMBER_OF_ANSWER_CHOICES = 8;

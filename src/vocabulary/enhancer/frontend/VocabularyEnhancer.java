@@ -1,12 +1,11 @@
 package vocabulary.enhancer.frontend;
 
-import javax.swing.JLabel;
-import javax.swing.JButton;
-import javax.swing.JPanel;
-import javax.swing.JFrame;
+import javax.swing.*;   //TODO: Fix this
+
 import vocabulary.enhancer.csv.CSVReaderUtil;
 import vocabulary.enhancer.data.WordDefinitionPair;
 
+import java.awt.GridLayout;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.util.ArrayList;
@@ -16,7 +15,7 @@ import java.util.List;
 public class VocabularyEnhancer extends JFrame {
     private JLabel definitionDisplay;
     private List<JButton> answerChoices;
-    private JPanel answersDisplay;
+    private JPanel answersDisplay, answerChoicesDisplay;
     private String currentCorrectAnswer;
     private int score;
 
@@ -24,6 +23,7 @@ public class VocabularyEnhancer extends JFrame {
         definitionDisplay = new JLabel();
         answerChoices = new ArrayList<>(VocabularyEnhancerConstants.NUMBER_OF_ANSWER_CHOICES);
         answersDisplay = new JPanel();
+        answerChoicesDisplay = new JPanel();
         score = 0;
 
         setUp();
@@ -57,7 +57,7 @@ public class VocabularyEnhancer extends JFrame {
     private void setUpAnswerChoices(WordDefinitionPair nextWordAndDefinition) {
         List<String> answerChoices = CSVReaderUtil.getAnswerChoices(nextWordAndDefinition);
 
-        answersDisplay.add(definitionDisplay);
+        //answersDisplay.add(definitionDisplay);
 
         int choice = 0;
         for(String answerChoice : answerChoices) {
@@ -68,14 +68,13 @@ public class VocabularyEnhancer extends JFrame {
     }
 
     private void setUpButtons() {
+//        GridLayout buttonLayout = new GridLayout(
+//            VocabularyEnhancerConstants.NUMBER_OF_ROWS_FOR_BUTTON_LAYOUT, VocabularyEnhancerConstants.NUMBER_OF_COLUMNS_FOR_BUTTON_LAYOUT);
+        answersDisplay.setLayout(new BoxLayout(answersDisplay, BoxLayout.Y_AXIS));
+
         for(int button = 0; button < VocabularyEnhancerConstants.NUMBER_OF_ANSWER_CHOICES; ++button) {
             this.answerChoices.add(new JButton());
-            this.answerChoices.get(button).addActionListener(new ActionListener() {
-                @Override
-                public void actionPerformed(ActionEvent e) {
-                    checkAnswer(((JButton) e.getSource()).getText());
-                }
-            });
+            this.answerChoices.get(button).addActionListener(e -> checkAnswer(((JButton) e.getSource()).getText()));
         }
     }
 

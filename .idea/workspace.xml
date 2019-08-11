@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="12c7c095-0ef7-46d3-872e-18ca8b79ec1d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Vocabulary Enhancer/vocabulary/enhancer/frontend/VocabularyEnhancer$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Vocabulary Enhancer/vocabulary/enhancer/frontend/VocabularyEnhancer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Vocabulary Enhancer/vocabulary/enhancer/frontend/VocabularyEnhancer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Vocabulary Enhancer/vocabulary/enhancer/frontend/VocabularyEnhancerConstants.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Vocabulary Enhancer/vocabulary/enhancer/frontend/VocabularyEnhancerConstants.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/vocabulary/enhancer/frontend/VocabularyEnhancer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vocabulary/enhancer/frontend/VocabularyEnhancer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/vocabulary/enhancer/frontend/VocabularyEnhancerConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vocabulary/enhancer/frontend/VocabularyEnhancerConstants.java" afterDir="false" />
     </list>
@@ -21,8 +18,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/vocabulary/enhancer/frontend/VocabularyEnhancer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="109">
-              <caret line="65" column="15" lean-forward="true" selection-start-line="65" selection-start-column="15" selection-end-line="65" selection-end-column="15" />
+            <state relative-caret-position="166">
+              <caret line="120" column="85" selection-start-line="120" selection-start-column="85" selection-end-line="120" selection-end-column="85" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -45,8 +42,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/vocabulary/enhancer/frontend/VocabularyEnhancerConstants.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="104">
-              <caret line="8" column="67" selection-start-line="8" selection-start-column="67" selection-end-line="8" selection-end-column="67" />
+            <state relative-caret-position="117">
+              <caret line="9" column="80" selection-start-line="9" selection-start-column="80" selection-end-line="9" selection-end-column="80" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -126,7 +126,7 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-14" />
+    <option name="x" value="-11" />
     <option name="y" value="23" />
     <option name="width" value="1280" />
     <option name="height" value="752" />
@@ -139,8 +139,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -152,6 +150,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -220,10 +220,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="752" extended-state="0" />
+    <frame x="0" y="23" width="1280" height="752" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2463651" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25040388" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -237,7 +237,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.22121212" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.35454544" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.3287879" />
@@ -288,24 +288,6 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/vocabulary/enhancer/database/DatabaseFetcher.java" />
-    <entry file="file://$PROJECT_DIR$/src/vocabulary/enhancer/data/WordDefinitionPair.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="6" column="63" selection-start-line="6" selection-start-column="63" selection-end-line="6" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Tester.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="39">
-          <caret line="4" column="73" selection-start-line="4" selection-start-column="73" selection-end-line="4" selection-end-column="73" />
-          <folding>
-            <element signature="e#122#123#0" expanded="true" />
-            <element signature="e#202#203#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/vocabulary/enhancer/csv/VocabTable.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="117">
@@ -321,6 +303,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Tester.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="39">
+          <caret line="4" column="73" selection-start-line="4" selection-start-column="73" selection-end-line="4" selection-end-column="73" />
+          <folding>
+            <element signature="e#122#123#0" expanded="true" />
+            <element signature="e#202#203#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/vocabulary/enhancer/data/WordDefinitionPair.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="6" column="63" selection-start-line="6" selection-start-column="63" selection-end-line="6" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/vocabulary/enhancer/csv/CSVConstants.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="91">
@@ -330,8 +330,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/vocabulary/enhancer/frontend/VocabularyEnhancerConstants.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="8" column="67" selection-start-line="8" selection-start-column="67" selection-end-line="8" selection-end-column="67" />
+        <state relative-caret-position="117">
+          <caret line="9" column="80" selection-start-line="9" selection-start-column="80" selection-end-line="9" selection-end-column="80" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -347,8 +350,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/vocabulary/enhancer/frontend/VocabularyEnhancer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="109">
-          <caret line="65" column="15" lean-forward="true" selection-start-line="65" selection-start-column="15" selection-end-line="65" selection-end-column="15" />
+        <state relative-caret-position="166">
+          <caret line="120" column="85" selection-start-line="120" selection-start-column="85" selection-end-line="120" selection-end-column="85" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

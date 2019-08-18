@@ -4,7 +4,7 @@ import java.io.File;
 
 public class CSVConstants {
 
-    public final static int NUMBER_OF_ROWS = 13;
+    public final static int NUMBER_OF_ROWS = 38;
     public final static int NUMBER_OF_ANSWER_CHOICES = 8;
 
     public final static String FILE_DIRECTORY = "src/vocabulary/enhancer/csv/VocabTable.txt";
